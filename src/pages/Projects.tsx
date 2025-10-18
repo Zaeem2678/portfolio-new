@@ -145,10 +145,10 @@ const projects = [
      tags: ['React.js', 'Tailwind CSS','Express JS ','Vite','Wasabi','Resend','OpenAI','Stripe'],
   },
   {
-    title: 'DriveBisdz (Web & Mobile)',
+    title: 'DriveBidz (Web & Mobile)',
     description:
       'A web platform for live car auctions with real-time bidding updates, admin panel, and analytics.',
-    image: '/projects_img/Drivebidz2.png',
+    image: '/projects_img/Drivebidz2.PNG',
      
     live: '',
     tags: ['React.js',  'WebSocket', 'MongoDB','Express JS','Material UI','Node JS','React Native',],

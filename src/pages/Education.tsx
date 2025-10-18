@@ -24,9 +24,11 @@ const Education = () => {
       "Computer Networks",
       "Software Project Management",
     ],
+	subjects: [],
     description:
       "During my time at COMSATS, I built a solid foundation in software engineering, focusing on real-world applications, scalable systems, and problem-solving through code. I actively worked on multiple projects that blended frontend and backend technologies, which helped me grow into a well-rounded full-stack developer. My academic experience played a key role in shaping my passion for modern app development and continuous learning.",
   },
+  
 
 ];
 	return (

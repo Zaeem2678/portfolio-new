@@ -144,7 +144,7 @@ const Home = () => {
 					</motion.a>
 
 					<motion.a
-						href="www.linkedin.com/in/hozefarizvi"
+						href="https://www.linkedin.com/in/hozefarizvi"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="flex flex-col items-center group w-full"
