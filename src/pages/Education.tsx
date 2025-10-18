@@ -14,7 +14,7 @@ const Education = () => {
     degree: "BS (Software Engineering)",
     grade: "CGPA: 3.25 / 4.00",
     image: "https://i.ytimg.com/vi/qAqmq5Dmoxk/maxresdefault.jpg",
-    resultUrl: "/files/education_pdf/BS_Software_Engineering.pdf",
+    resultUrl: "/files/education_pdf/front_bachelor.jpg",
     coursework: [
       "Data Structures & Algorithms",
       "Object-Oriented Programming",
