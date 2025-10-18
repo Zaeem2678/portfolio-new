@@ -29,24 +29,24 @@ const Contact = () => {
 		{
 			icon: <Mail className="w-5 h-5" />,
 			label: 'Email',
-			value: 'code.niladri@gmail.com',
-			link: 'mailto:code.niladri@gmail.com'
+			value: 'hozefarizvi52@gmail.com',
+			link: 'mailto:hozefarizvi52@gmail.com'
 		},
 		{
 			icon: <Phone className="w-5 h-5" />,
 			label: 'Phone',
-			value: '+916296554939',
-			link: 'tel:+916296554939'
+			value: '‭+966 57 128 2906‬',
+			link: 'tel:‭+966 57 128 2906‬'
 		},
 		{
 			icon: <MapPin className="w-5 h-5" />,
 			label: 'Location',
-			value: 'Kolkata, West Bengal, India'
+			value: 'Al Malaz, Riyadh, KSA'
 		},
 		{
 			icon: <Clock className="w-5 h-5" />,
 			label: 'Time Zone',
-			value: 'IST (UTC+5:30)'
+			value: 'AST, UTC+3'
 		}
 	];
 
@@ -54,17 +54,17 @@ const Contact = () => {
 		{
 			icon: <Github className="w-5 h-5" />,
 			label: 'GitHub',
-			link: 'https://github.com/niladri-1'
+			link: 'https://github.com/HozefaRizvi'
 		},
 		{
 			icon: <Linkedin className="w-5 h-5" />,
 			label: 'LinkedIn',
-			link: 'https://linkedin.com/in/niladri1'
+			link: 'https://linkedin.com/in/hozefarizvi'
 		},
 		{
 			icon: <MessageCircle className="w-5 h-5" />,
 			label: 'WhatsApp',
-			link: 'https://wa.me/+916296554939'
+			link: 'https://wa.me/+966571282906'
 		}
 	];
 
@@ -171,8 +171,8 @@ const Contact = () => {
 						>
 							<h3 className="text-lg sm:text-xl font-semibold mb-4">Office Hours</h3>
 							<div className="space-y-2 text-gray-400 text-sm sm:text-base">
-								<p>Monday - Friday: 9:00 AM - 6:00 PM (IST)</p>
-								<p>Saturday: 10:00 AM - 2:00 PM (IST)</p>
+								<p>Monday - Friday: 9:00 AM - 6:00 PM (AST)</p>
+								<p>Saturday: 10:00 AM - 2:00 PM (AST)</p>
 								<p>Sunday: Closed</p>
 							</div>
 						</motion.div>
