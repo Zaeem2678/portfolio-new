@@ -6,37 +6,28 @@ import { ScrollAnimation } from '@/components/ScrollAnimation';
 
 const certificates = [
   {
-    title: "Python for Data Science & Machine Learning: Zero to Hero",
+    title: "The Complete Web Development Course: Zero to Hero | Udemy",
     issuer: "Udemy",
     date: "14th July 2024",
-    link: "./files/certificates_pdf/python_data_science_ml.pdf",
-    description: "Comprehensive training on Python programming for data science and machine learning. Covered topics include data analysis, predictive modeling, and advanced Python libraries.",
-    skills: ["Python", "Data Science", "Machine Learning", "Pandas", "NumPy"]
+    description:
+      "Comprehensive training on Python programming for data science and machine learning. Covered topics include data analysis, predictive modeling, and advanced Python libraries.",
+    skills: ["Python", "Data Science", "Machine Learning", "Pandas", "NumPy"],
   },
   {
     title: "CCNAv7: Introduction to Networks",
     issuer: "COMSATS University Islamabad, Abbottabad Campus",
     date: "21st March 2023",
     link: "./files/certificates_pdf/ccna_intro_networks.pdf",
-    description: "Validates knowledge and skills to install, configure, operate, and troubleshoot basic network infrastructure with a comprehensive understanding of networking concepts, protocols, and configuration.",
-    skills: ["Networking", "Cisco", "Routing", "Switching", "Network Configuration"]
+    description:
+      "Validates knowledge and skills to install, configure, operate, and troubleshoot basic network infrastructure with a comprehensive understanding of networking concepts, protocols, and configuration.",
+    skills: [
+      "Networking",
+      "Cisco",
+      "Routing",
+      "Switching",
+      "Network Configuration",
+    ],
   },
-  {
-    title: "Certificate of Achievement: JavaScript (Basic)",
-    issuer: "HackerRank",
-    date: "7th February 2023",
-    link: "./files/certificates_pdf/javascript_basic.pdf",
-    description: "Demonstrates proficiency in JavaScript fundamentals, including syntax, functions, and object-oriented programming.",
-    skills: ["JavaScript", "ES6", "Functions", "OOP"]
-  },
-  {
-    title: "Website Design & Development",
-    issuer: "COMSATS University Islamabad, Abbottabad Campus",
-    date: "10th January 2022 - 15th March 2022",
-    link: "./files/certificates_pdf/website_design_development.pdf",
-    description: "Hands-on experience with website creation using WordPress, Elementor, Yoast SEO, WooCommerce, HTML5, and CSS3 for optimization and user experience enhancement.",
-    skills: ["WordPress", "HTML5", "CSS3", "WooCommerce", "SEO"]
-  }
 ];
 
 const Certificates = () => {

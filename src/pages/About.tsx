@@ -53,7 +53,6 @@ const About = () => {
           <div className="aspect-square overflow-hidden rounded-2xl">
             <img
               src="/zaeem-profile.jpeg"
-              alt="Zaeem Hussain"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
