@@ -1,37 +1,43 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { GraduationCap, Calendar, MapPin, BookOpen, Award, FileText, ExternalLink } from 'lucide-react';
-import { ScrollAnimation } from '@/components/ScrollAnimation';
-import Image from 'next/image';
+import { motion } from "framer-motion";
+import {
+  GraduationCap,
+  Calendar,
+  MapPin,
+  BookOpen,
+  Award,
+  FileText,
+  ExternalLink,
+} from "lucide-react";
+import { ScrollAnimation } from "@/components/ScrollAnimation";
+import Image from "next/image";
 
 const Education = () => {
-	const educationData = [
-  {
-    school: "COMSATS University Islamabad",
-    location: "Islamabad, Pakistan",
-    duration: "2018 - 2022",
-    degree: "BS (Software Engineering)",
-    grade: "CGPA: 3.2 / 4.00",
-    image: "https://i.ytimg.com/vi/qAqmq5Dmoxk/maxresdefault.jpg",
-    resultUrl: "/files/education_pdf/front_bachelor.jpg",
-    coursework: [
-      "Data Structures & Algorithms",
-      "Object-Oriented Programming",
-      "Database Management Systems",
-      "Operating Systems",
-      "Web & Mobile App Development",
-      "Computer Networks",
-      "Software Project Management",
-    ],
-	subjects: [],
-    description:
-      "During my time at COMSATS, I built a solid foundation in software engineering, focusing on real-world applications, scalable systems, and problem-solving through code. I actively worked on multiple projects that blended frontend and backend technologies, which helped me grow into a well-rounded full-stack developer. My academic experience played a key role in shaping my passion for modern app development and continuous learning.",
-  },
-  
-
-];
-	return (
+  const educationData = [
+    {
+      school: "COMSATS University Islamabad",
+      location: "Islamabad, Pakistan",
+      duration: "2018 - 2022",
+      degree: "BS (Software Engineering)",
+      grade: "CGPA: 3.2 / 4.00",
+      image: "https://i.ytimg.com/vi/qAqmq5Dmoxk/maxresdefault.jpg",
+      resultUrl: "/files/education_pdf/front_bachelor.jpg",
+      coursework: [
+        "Data Structures & Algorithms",
+        "Object-Oriented Programming",
+        "Database Management Systems",
+        "Operating Systems",
+        "Web & Mobile App Development",
+        "Computer Networks",
+        "Software Project Management",
+      ],
+      subjects: [],
+      description:
+        "During my time at COMSATS, I built a solid foundation in software engineering, focusing on real-world applications, scalable systems, and problem-solving through code. I actively worked on multiple projects that blended frontend and backend technologies, which helped me grow into a well-rounded full-stack developer. My academic experience played a key role in shaping my passion for modern app development and continuous learning.",
+    },
+  ];
+  return (
     <div className="min-h-screen pt-20 px-4 max-w-6xl mx-auto pb-20">
       <ScrollAnimation>
         <motion.div
