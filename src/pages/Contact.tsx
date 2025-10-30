@@ -26,45 +26,45 @@ const Contact = () => {
 	};
 
 	const contactInfo = [
-		{
-			icon: <Mail className="w-5 h-5" />,
-			label: 'Email',
-			value: 'hozefarizvi52@gmail.com',
-			link: 'mailto:hozefarizvi52@gmail.com'
-		},
-		{
-			icon: <Phone className="w-5 h-5" />,
-			label: 'Phone',
-			value: '‭+966 57 128 2906‬',
-			link: 'tel:‭+966 57 128 2906‬'
-		},
-		{
-			icon: <MapPin className="w-5 h-5" />,
-			label: 'Location',
-			value: 'Al Malaz, Riyadh, KSA'
-		},
-		{
-			icon: <Clock className="w-5 h-5" />,
-			label: 'Time Zone',
-			value: 'AST, UTC+3'
-		}
-	];
+    {
+      icon: <Mail className="w-5 h-5" />,
+      label: "Email",
+      value: "zaeemhussain5@gmail.com",
+      link: "mailto:zaeemhussain5@gmail.com",
+    },
+    {
+      icon: <Phone className="w-5 h-5" />,
+      label: "Phone",
+      value: "‭+966 56 621 1529‬",
+      link: "tel:‭+966 56 621 1529‬",
+    },
+    {
+      icon: <MapPin className="w-5 h-5" />,
+      label: "Location",
+      value: "Al Malaz, Riyadh, KSA",
+    },
+    {
+      icon: <Clock className="w-5 h-5" />,
+      label: "Time Zone",
+      value: "AST, UTC+3",
+    },
+  ];
 
 	const socialLinks = [
 		{
 			icon: <Github className="w-5 h-5" />,
 			label: 'GitHub',
-			link: 'https://github.com/HozefaRizvi'
+			link: 'https://github.com/zaeem2678'
 		},
 		{
 			icon: <Linkedin className="w-5 h-5" />,
 			label: 'LinkedIn',
-			link: 'https://linkedin.com/in/hozefarizvi'
+			link: 'https://linkedin.com/in/zaeemraja'
 		},
 		{
 			icon: <MessageCircle className="w-5 h-5" />,
 			label: 'WhatsApp',
-			link: 'https://wa.me/+966571282906'
+			link: 'https://wa.me/+966566211529'
 		}
 	];
 
