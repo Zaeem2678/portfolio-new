@@ -23,7 +23,7 @@ const Home = () => {
   const whatsappNumber = "+966566211529";
 
   const { data: githubData } = useSWR(
-    "https://api.github.com/users/zaeemraja",
+    "https://api.github.com/users/zaeem2678",
     fetcher
   );
 
